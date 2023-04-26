@@ -28,9 +28,12 @@ background-color: #38674D;
 color: whitesmoke;
 }
 header img {
-width: 14rem;
+width: 8rem;
 height: auto;
-float: right;
+float: left;
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
+
 }
 footer {
 font-size: 1rem;
