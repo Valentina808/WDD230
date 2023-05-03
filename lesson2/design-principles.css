@@ -1,0 +1,32 @@
+*  { margin: 0; box-sizing: border-box; }
+body {
+font-size: 16px;
+line-height: 32px;
+font-family: Ubuntu, sans-serif ;
+color: #213f2f;
+display: column;
+}
+div {
+column-count: 3;
+column-gap: 40px;
+}
+h1 {
+font-size: 2rem;
+color: #000000;
+}
+h2 {
+font-size: 1.5 rem;
+color: #000000;
+}
+header, footer {
+margin: 1.25rem auto;
+padding: .5rem;
+max-width: 2000px;
+}
+img {
+width: 18rem;
+height: auto;
+float: left;
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
+}
