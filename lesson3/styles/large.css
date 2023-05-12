@@ -1,4 +1,4 @@
-/* CIT 230 - Assignment Portal CSS Template */
+/*WDD 230 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 /* * is a wildcard referring to all elements. */
 *  { margin: 0; box-sizing: border-box; }
@@ -6,7 +6,7 @@ body {
 font-size: 16px;
 line-height: 32px;
 font-family: Ubuntu, sans-serif ;
-color: #37664c;
+color: #253C59;
 }
 h1 {
 font-size: 3rem;
@@ -24,7 +24,7 @@ max-width: 2000px;
 }
 header, footer, footer a {
 text-align: center;
-background-color: #38674D;
+background-color: #253C59;
 color: whitesmoke;
 }
 header img {
