@@ -1,3 +1,4 @@
+@media only screen and (min-width: 32.5em) {
 *  { margin: 0; box-sizing: border-box; }
 body {
 font-size: 16px;
@@ -23,6 +24,10 @@ header, footer {
 margin: 1.25rem auto;
 padding: .5rem;
 max-width: 2000px;
+}
+header {
+border-radius: 10px 10px 0px 0px;
+display: grid;
 }
 
 img {
@@ -52,4 +57,5 @@ flex-direction:column
     .column-container {
         grid-template-columns:1fr;
     } 
+}
 }
