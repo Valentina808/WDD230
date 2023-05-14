@@ -5,7 +5,7 @@
 body {
 font-size: 16px;
 line-height: 32px;
-font-family: Ubuntu, sans-serif ;
+font-family: 'Lora', serif;
 color: #37664c;
 }
 h1 {
@@ -28,7 +28,7 @@ background-color: #38674D;
 color: whitesmoke;
 }
 header img {
-width: 8rem;
+width: 12rem;
 height: auto;
 float: left;
 padding: 5px 5px 5px 5px;

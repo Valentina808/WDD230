@@ -1,11 +1,16 @@
 @media only screen and (min-width: 32.5em) {
 *  { margin: 0; box-sizing: border-box; }
+
 body {
 font-size: 16px;
 line-height: 32px;
-font-family: Ubuntu, sans-serif ;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 color: #213f2f;
 display: column;
+padding: 10px 10px 10px 10px;
+margin:auto;
 }
 div {
 column-count: 3;
