@@ -11,28 +11,37 @@ color: #213f2f;
 display: column;
 padding: 10px 10px 10px 10px;
 margin:auto;
+
 }
 div {
 column-count: 3;
 column-gap: 40px;
+
 }
 h1 {
 font-size: 2rem;
 color: #000000;
 margin-bottom:36px;
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
+
 }
 h2 {
 font-size: 1.5 rem;
 color: #000000;
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
 }
 header, footer {
 margin: 1.25rem auto;
 padding: .5rem;
 max-width: 2000px;
+
 }
 header {
 border-radius: 10px 10px 0px 0px;
 display: grid;
+
 }
 
 img {
@@ -51,6 +60,15 @@ margin-left: 15px;
 .column {
 display:flex;
 flex-direction:column
+}
+
+p {
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
+}
+a {
+padding: 5px 5px 5px 5px;
+margin-left: 15px;
 }
 
 @media (max-width:945px) {
