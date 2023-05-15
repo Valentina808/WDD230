@@ -8,33 +8,42 @@ line-height: 32px;
 font-family: Ubuntu, sans-serif ;
 color: #253C59;
 font-family: 'Lora', serif;
+padding: 10px 10px 10px 10px;
+margin-left: 15px;
 }
 h1 {
 font-size: 3rem;
 color: #FFF2FF;
+padding: 10px 10px 10px 10px;
+margin-left: 15px;
 }
 h2 {
 font-size: 2rem;
 text-align: center;
 border-bottom: 1px solid #bbb;
+padding: 10px 10px 10px 10px;
+margin-left: 15px;
 }
 header, main, footer {
 margin: 1.25rem auto;
 padding: .5rem;
 max-width: 2000px;
+padding: 10px 10px 10px 10px;
+margin-left: 15px;
 }
 header, footer, footer a {
 text-align: center;
 background-color: #253C59;
 color: whitesmoke;
+padding: 10px 10px 10px 10px;
+margin-left: 15px;
 }
 header img {
-width: 8rem;
+width: 18rem;
 height: auto;
 float: left;
-padding: 5px 5px 5px 5px;
+padding: 10px 10px 10px 10px;
 margin-left: 15px;
-
 }
 footer {
 font-size: 1rem;
