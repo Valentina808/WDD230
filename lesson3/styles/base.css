@@ -1,42 +1,40 @@
-/* WDD 230 - Assignment Portal CSS Template */
+/*WDD 230 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 /* * is a wildcard referring to all elements. */
+@media only screen and (min-width: 32.5em) {
 *  { margin: 0; box-sizing: border-box; }
 body {
 font-size: 16px;
 line-height: 32px;
-font-family: Ubuntu, sans-serif ;
-color: #253C59;
 font-family: 'Lora', serif;
-padding: 10px 10px 10px 10px;
-margin-left: 15px;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: #253C59;
 }
 h1 {
 font-size: 3rem;
 color: #FFF2FF;
-padding: 10px 10px 10px 10px;
-margin-left: 15px;
 }
 h2 {
 font-size: 2rem;
 text-align: center;
 border-bottom: 1px solid #bbb;
-padding: 10px 10px 10px 10px;
-margin-left: 15px;
 }
 header, main, footer {
 margin: 1.25rem auto;
 padding: .5rem;
 max-width: 2000px;
-padding: 10px 10px 10px 10px;
-margin-left: 15px;
+}
+nav ul{
+display:block;
+margin: 1.25rem auto;
+padding: .5rem;
+max-width: 2000px;
 }
 header, footer, footer a {
 text-align: center;
 background-color: #253C59;
 color: whitesmoke;
-padding: 10px 10px 10px 10px;
-margin-left: 15px;
 }
 header img {
 width: 18rem;
@@ -45,6 +43,14 @@ float: left;
 padding: 10px 10px 10px 10px;
 margin-left: 15px;
 }
+img{
+    width: 20rem;
+    height: auto;
+}
+.colors{
+width: 90rem;
+}
 footer {
 font-size: 1rem;
+}
 }

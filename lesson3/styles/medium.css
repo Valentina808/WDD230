@@ -1,11 +1,14 @@
 /*WDD 230 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 /* * is a wildcard referring to all elements. */
-*  { margin: 0; box-sizing: border-box; }
+@media only screen and (min-width: 32.5em) {
+    *  { margin: 0; box-sizing: border-box; }
 body {
 font-size: 16px;
 line-height: 32px;
-font-family: Ubuntu, sans-serif ;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 color: #253C59;
 }
 h1 {
@@ -28,13 +31,13 @@ background-color: #253C59;
 color: whitesmoke;
 }
 header img {
-width: 8rem;
+width: 28rem;
 height: auto;
 float: left;
 padding: 5px 5px 5px 5px;
 margin-left: 15px;
-
 }
 footer {
 font-size: 1rem;
+}
 }
