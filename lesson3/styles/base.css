@@ -43,8 +43,11 @@ padding: 10px 10px 10px 10px;
 margin-left: 15px;
 }
 img{
-    width: 20rem;
-    height: auto;
+width: 20rem;
+height: auto;
+float: left;
+padding: 5px 5px 5px 5px; 
+margin-left: 15px;
 }
 .colors{
 width: 90rem;
