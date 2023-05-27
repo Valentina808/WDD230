@@ -1,21 +1,46 @@
 *  { margin: 0; box-sizing: border-box; }
 body {
-font-size: 16px;
+font-size: 18px;
 line-height: 32px;
 font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 color: #253C59;
+max-width: 100%;
+margin: 0 auto;
+padding: 1em;
+text-align: center;
 }
-h1 {
+
+h1, h2, h3, h4 {
 font-size: 3rem;
 color: #FFF2FF;
+text-align: center;
 }
+
 h2 {
 font-size: 2rem;
 text-align: center;
 border-bottom: 1px solid #bbb;
 }
+
+#logo {
+	padding-top: 5px;
+	justify-self: left;
+	width: 20%;
+}
+
+.logo {
+
+	display: flex; 
+	float: left; 
+	width:30%;
+	height: auto;
+	padding-top: 1%;
+	padding-left: 1%;
+	padding-right: 3%;
+}
+
 header, main, footer {
 margin: 1.25rem auto;
 padding: .5rem;
