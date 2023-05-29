@@ -5,11 +5,11 @@ const addButton = document.getElementById("add");
 addButton.addEventListener('click', function(){
     const userInput = input.value;
     if (userInput !== ""){
-        const listElement = document.createElement("li");
-        listElement.textContent = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
-        const removeItemButton = document.createElementNS("button");
+        const listElements = document.createElement("li");
+        listElements.textContent = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
+        const removeItemButton = document.createElement("button");
         removeItemButton.textContent = "X";
-        removeItemButton.setAttribute("id","dButton");
+        removeItemButton.setAttribute("id","button");
         removeItemButton.addEventListener('click', function(){
             listElements.remove();
             input.focus();
