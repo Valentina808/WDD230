@@ -1,4 +1,5 @@
 *  { margin: 0; box-sizing: border-box; }
+
 body {
 font-size: 18px;
 line-height: 32px;
@@ -42,10 +43,13 @@ border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
+display: flex;
+flex-direction: column;
 margin: 1.25rem auto;
 padding: .5rem;
 max-width: 2000px;
 }
+
 nav ul{
 display:block;
 margin: 1.25rem auto;
@@ -64,6 +68,12 @@ float: left;
 padding: 10px 10px 10px 10px;
 margin-left: 15px;
 }
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav ul {display: none;}
+nav ul.open {display:block;}
+
 img{
 width: 20rem;
 height: auto;
@@ -76,6 +86,11 @@ width: 90rem;
 }
 footer {
 font-size: 1rem;
+margin-top: 10px;
+text-decoration: none;
+justify-content: space-around;
+align-items: center; 
+padding: 1%; 
 }
 
 * {
@@ -136,4 +151,70 @@ nav {
 	display: block;
 }
 
-@media only screen and (min-width: 32.5em) {}
+@media only screen and (min-width: 32.5em) {
+	.grid-container {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		min-height: 500px;
+		margin: 0;
+		row-gap: .5rem;    
+	}
+	.hero_ph {
+		grid-row: 1; 
+		background-color: lightgrey;
+		border: 1px solid black;
+	}
+	
+	.event_ph {
+		grid-row: 2;
+		background-color: lightgrey;
+		border: 1px solid black;
+	}
+	
+	.weather_ph {
+		grid-row: 3;
+		background-color: lightgrey;
+		border: 1px solid black;
+	}
+	
+	.news_release_ph {
+		grid-row: 4;
+		background-color: lightgrey;
+		border: 1px solid black;
+	}
+	
+	.join_ph {
+		display: none;
+	}
+	
+	.spotlight_main {
+		grid-row: 5/7;
+		background-color: lightgrey;
+		
+		
+	}
+	
+	.spotlight_ph1 {
+		
+		justify-content: center;
+		border: 1px solid black;
+		width: 96%;
+		height: 46.5%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 2%;
+		margin-bottom: .5%;
+	}
+	.spotlight_ph2 {    
+		background-color: lightgrey;
+		border: 1px solid black;
+		width: 96%;
+		height: 46.5%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: .5%;
+		margin-bottom: 2%;
+	}
+	
+	
+}
